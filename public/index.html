@@ -40,6 +40,12 @@
 				border-bottom: 1px solid var(--border-color);
 			}
 
+			.header-logo {
+				max-width: 120px;
+				height: auto;
+				margin-bottom: 1rem;
+			}
+
 			h1 {
 				font-size: 1.5rem;
 				color: var(--primary-color);
@@ -138,6 +144,13 @@
 	</head>
 	<body>
 		<header>
+			<!-- ✅ 新增图片 -->
+			<img
+				src="deding.png" 
+				alt="Deding Logo"
+				class="header-logo"
+			/>
+
 			<h1>AI Chat by Deding</h1>
 			<p>Powered by Cloudflare Workers AI Deding</p>
 		</header>
